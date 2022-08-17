@@ -1,0 +1,162 @@
+.backgroundFundoImage {
+  background-image: url(./../../img/fundo_topo.jpg);
+  width: 100%;
+  height: calc(80vh - 4rem);
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 200px;
+
+  .divFormAndWomen {
+    max-width: 900px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    z-index: 500;
+    margin: 0 auto;
+
+    h1 {
+      color: var(--roxo-escuro);
+    }
+  }
+}
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  button{
+    margin-top: 20px;
+
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    background: var(--vinho);
+    color: var(--branco);
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    outline: none;
+    border: none;
+    width: 400px;
+    cursor: pointer;
+  }
+}
+
+.btnForm{
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  background: var(--vinho);
+  color: var(--branco);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  outline: none;
+  border: none;
+  width: 400px;
+  cursor: pointer;
+}
+
+@media (max-width: 468px){
+  .btnForm{
+    width: 300px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 390px){
+  .btnForm{
+    width: 260px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 330px){
+  .btnForm{
+    width: 240px;
+    margin: 10px;
+  }
+}
+
+
+@media(max-width: 1600px) {
+  .backgroundFundoImage {
+    height: calc(100vh - 4rem);
+  }
+}
+
+
+@media(max-width:1280px) {
+
+  .backgroundFundoImage {
+    padding-bottom: 175px;
+    height: 600px;
+
+    .Modelo {
+      padding: 3rem 3rem 0 3rem;
+    }
+  }
+}
+
+@media(max-width:900px) {
+  .backgroundFundoImage {
+    padding-bottom: 175px;
+    height: 900px;
+
+    .divFormAndWomen {
+      flex-direction: column-reverse;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .Modelo {
+      height: 400px;
+      width: 309px;
+    }
+
+  }
+
+}
+
+@media(max-width: 750px) {
+  .backgroundFundoImage {
+    padding-bottom: 175px;
+    height: 1050px;
+  }
+
+}
+
+@media(max-width:400px) {
+  .PrimeiroCilios {
+    justify-content: center;
+  }
+
+
+  .backgroundFundoImage {
+
+    padding-bottom: 35px;
+    height: 1000px;
+    .divFormAndWomen {
+      display: flex;
+
+    }
+
+
+    .Modelo {
+      height: 400px;
+      width: 200px;
+    }
+  }
+
+}
+
+@media (max-width: 340px) {
+
+  .backgroundFundoImage {
+    height: 1020px;
+
+    .divFormAndWomen {
+      display: flex;
+      max-width: 340px;
+    }
+  }
+}

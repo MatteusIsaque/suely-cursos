@@ -1,0 +1,39 @@
+.form {
+  margin-top: 40px;
+
+  button {
+    padding: 14px 0px;
+    cursor: pointer;
+
+    margin-top: 14px;
+
+    background-color: var(--vinho);
+    color: var(--rosa-claro);
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 1px;
+    outline: none;
+    border: none;
+    border-radius: 14px;
+    transition: 0.5s;
+
+    &:hover{
+      transition: 0.5s;
+      filter: brightness(0.9);
+    }
+  }
+
+  input {
+    outline-color: var(--vinho);
+  }
+
+  textarea {
+    margin: 0px 4px;
+
+    border-radius: 10px;
+    padding: 10px;
+    height: 100px;
+    border-color: var(--roxo-escuro);
+    outline-color: var(--vinho);
+  }
+}

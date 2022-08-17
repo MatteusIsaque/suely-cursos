@@ -1,0 +1,34 @@
+.button{
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  background: var(--vinho);
+  color: var(--branco);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  outline: none;
+  border: none;
+  width: 400px;
+  cursor: pointer;
+}
+
+@media (max-width: 468px){
+  .button{
+    width: 300px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 390px){
+  .button{
+    width: 260px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 330px){
+  .button{
+    width: 240px;
+    margin: 10px;
+  }
+}
