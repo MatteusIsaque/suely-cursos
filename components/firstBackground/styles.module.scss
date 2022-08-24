@@ -61,19 +61,12 @@
     width: 300px;
     margin: 10px;
   }
-}
 
-@media (max-width: 390px){
-  .btnForm{
-    width: 260px;
-    margin: 10px;
-  }
-}
-
-@media (max-width: 330px){
-  .btnForm{
-    width: 240px;
-    margin: 10px;
+  .content{
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0px 5%;
   }
 }
 
@@ -120,21 +113,16 @@
 @media(max-width: 750px) {
   .backgroundFundoImage {
     padding-bottom: 175px;
-    height: 1050px;
+    height: 850px;
   }
 
 }
-
-@media(max-width:400px) {
-  .PrimeiroCilios {
-    justify-content: center;
-  }
 
 
   .backgroundFundoImage {
 
     padding-bottom: 35px;
-    height: 1000px;
+    height: 850px;
     .divFormAndWomen {
       display: flex;
 
@@ -145,18 +133,18 @@
       height: 400px;
       width: 200px;
     }
-  }
 
 }
 
-@media (max-width: 340px) {
+@media (max-width: 360px) {
 
   .backgroundFundoImage {
-    height: 1020px;
+    height: 900px;
 
     .divFormAndWomen {
       display: flex;
-      max-width: 340px;
+      margin: 0 auto;
+      max-width: 320px;
     }
   }
 }

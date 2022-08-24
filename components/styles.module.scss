@@ -14,21 +14,10 @@
 
 @media (max-width: 468px){
   .button{
-    width: 300px;
+    width: 100%;
     margin: 10px;
+    max-width: 90%;
+    margin: 0 auto;
   }
 }
 
-@media (max-width: 390px){
-  .button{
-    width: 260px;
-    margin: 10px;
-  }
-}
-
-@media (max-width: 330px){
-  .button{
-    width: 240px;
-    margin: 10px;
-  }
-}

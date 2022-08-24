@@ -1,4 +1,4 @@
-import styles from './../buttonZap/styles.module.scss'
+import styles from './../../styles.module.scss'
 import Link from 'next/link'
 
 interface ParamButton {

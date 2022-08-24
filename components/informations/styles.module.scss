@@ -21,4 +21,21 @@
     }
   }
 
- 
+
+  @media (max-width: 650px){
+    .Info {
+        .information{
+          display: grid;
+          grid-template-columns:1fr;
+          grid-column-gap: 10%;
+          margin-top: 50px;
+          
+          .image{
+            width: 60%;
+            max-width: 60%;
+            margin: 0 auto;
+          }
+        }
+      }
+    
+  }

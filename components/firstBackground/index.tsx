@@ -32,14 +32,9 @@ export default function FormAndWomen() {
           <Image src={Modelo} />
         </div>
 
-        <div>
-          {
-            width <= 768 && <div className={styles.PrimeiroCilios}>
-              <Image src={PrimeiraImage} layout="responsive" />
-            </div>
-          }
-          <h1>
+        <div className={styles.content}>
 
+          <h1>
             CURSO DE EXTENSÃO DE CÍLIOS<br />
             EM BRASILIA
           </h1>
