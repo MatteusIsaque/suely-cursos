@@ -29,7 +29,7 @@ export default function FormAndWomen() {
     <div className={styles.backgroundFundoImage}>
       <div className={styles.divFormAndWomen}>
         <div className={styles.Modelo}>
-          <Image src={Modelo} />
+          <Image src={Modelo} layout='responsive' />
         </div>
 
         <div className={styles.content}>
@@ -53,8 +53,8 @@ export default function FormAndWomen() {
           </div>
 
         </div>
-
       </div>
+
     </div>
   )
 }

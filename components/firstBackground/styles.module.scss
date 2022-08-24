@@ -7,12 +7,18 @@
   padding-bottom: 200px;
 
   .divFormAndWomen {
-    max-width: 900px;
+    // max-width: 900px;
     display: flex;
     text-align: center;
     align-items: center;
     z-index: 500;
     margin: 0 auto;
+    padding-bottom: 200px;
+
+    .Modelo {
+      width: 334px;
+      min-width: 334px;
+    }
 
     h1 {
       color: var(--roxo-escuro);
@@ -20,12 +26,12 @@
   }
 }
 
-.buttons{
+.buttons {
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  button{
+  button {
     margin-top: 20px;
 
     padding: 0.75rem;
@@ -42,7 +48,7 @@
   }
 }
 
-.btnForm{
+.btnForm {
   padding: 0.75rem;
   border-radius: 0.5rem;
   background: var(--vinho);
@@ -56,13 +62,13 @@
   cursor: pointer;
 }
 
-@media (max-width: 468px){
-  .btnForm{
+@media (max-width: 468px) {
+  .btnForm {
     width: 300px;
     margin: 10px;
   }
 
-  .content{
+  .content {
     width: 100%;
     max-width: 80%;
     margin: 0 auto;
@@ -71,11 +77,11 @@
 }
 
 
-@media(max-width: 1600px) {
-  .backgroundFundoImage {
-    height: calc(100vh - 4rem);
-  }
-}
+// @media(max-width: 1600px) {
+//   .backgroundFundoImage {
+//     height: calc(100vh - 4rem);
+//   }
+// }
 
 
 @media(max-width:1280px) {
@@ -93,15 +99,22 @@
 @media(max-width:900px) {
   .backgroundFundoImage {
     padding-bottom: 175px;
-    height: 900px;
-
+    height: 100px;
+    
     .divFormAndWomen {
       flex-direction: column-reverse;
       justify-content: flex-end;
       align-items: center;
+      padding-bottom: 0px !important;
     }
 
+
+    .content{
+      margin-top: 170px;
+    }
     .Modelo {
+      padding: 0px;
+
       height: 400px;
       width: 309px;
     }
@@ -119,20 +132,20 @@
 }
 
 
-  .backgroundFundoImage {
+.backgroundFundoImage {
 
-    padding-bottom: 35px;
-    height: 850px;
-    .divFormAndWomen {
-      display: flex;
+  padding-bottom: 35px;
+  height: 850px;
 
-    }
+  .divFormAndWomen {
+    display: flex;
+
+  }
 
 
-    .Modelo {
-      height: 400px;
-      width: 200px;
-    }
+  .Modelo {
+    max-width: 280px;  
+  }
 
 }
 
@@ -140,6 +153,10 @@
 
   .backgroundFundoImage {
     height: 900px;
+
+    .content{
+      width: 300px;
+    }
 
     .divFormAndWomen {
       display: flex;
