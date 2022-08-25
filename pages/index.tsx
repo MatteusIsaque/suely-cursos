@@ -19,7 +19,7 @@ export default function Home() {
 
   useEffect(() => {
     const tagManagerArgs = {
-      gtmId: 'GTM-TNV6LVM'
+      gtmId: 'GTM-K35XXJ4'
     }
 
     TagManager.initialize(tagManagerArgs)
