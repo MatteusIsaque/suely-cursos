@@ -11,21 +11,20 @@ export default function Form() {
   const [mensagem, setMensagem] = useState()
   const router = useRouter()
 
-  async function handleSubmit(e:FormEvent){
+  async function handleSubmit(e: FormEvent) {
     e.preventDefault()
 
     const data = {
       emailTo: 'suelydudafashion@hotmail.com',
-      title:'Email da campanha venda de cursos',
-      domain:"https://suely-cursos.vercel.app/",
+      title: 'Email da campanha venda de cursos',
+      domain: "https://suely-cursos.vercel.app/",
       email: email,
       number: number,
       messagem: mensagem
     }
 
     await axios.post('https://main-form.herokuapp.com/number-email', data)
-
-    await router.reload()
+    router.push('/obrigado')
   }
 
   return (
